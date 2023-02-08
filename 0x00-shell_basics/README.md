@@ -1,2 +1,2 @@
 pwd-Script for absolute path name
-ls-Display the contents list of your current directory
+ls-Script for displaying contents of current directory /n
