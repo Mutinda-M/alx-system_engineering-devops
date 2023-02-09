@@ -5,3 +5,5 @@ ls -l Display current directory contents in a long format
 ls -la Display all contents including hidden in long format
 ls -na Display all numerically with user and group ID
 mkdir /tmp/my_first_directory create directory in temporary directory
+mv betty /tmp/my_first_directory move file betty to my_first_directory
+
