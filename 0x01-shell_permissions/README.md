@@ -7,4 +7,5 @@ chmod 754 ./hello add execute to user and group ,adds write to others
 chmod a+x ./hello adds execution to all
 chmod 007 ./hello gives permission to others only
 chmod 753 ./hello -rwxr-w-wx
-
+chmod --reference=./olleh /.hello change mode of hello to be exact as that of olleh
+chmod a+x . add execution permission to all subdirectories in working directory
