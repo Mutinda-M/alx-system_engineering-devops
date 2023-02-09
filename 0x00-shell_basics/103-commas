@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ma*/[:alpha:]!...sort[:digit:][:alpha:] /n
+ls -a./,../,[:alpha:]!./../,sort[:digit:][:alpha:]/n
