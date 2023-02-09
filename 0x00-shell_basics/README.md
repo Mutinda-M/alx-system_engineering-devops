@@ -13,3 +13,4 @@ ls -la . .. /boot lists all files inclusive of the hidden files in current direc
 file /tmp/iamafile Print the type of file
 ln -s  /bin/ls __ls__ create a symblic link named __ls__ to /bin/ls
 cp *.html!.. .. copies all html files not present in the parent directory from the current directory to the parent directory
+mv [[:upper:]]* /tmp/u move all files that begin with upper case to /tmp/u
