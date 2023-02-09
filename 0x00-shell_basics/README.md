@@ -12,3 +12,4 @@ cd - changes to previous directory
 ls -la . .. /boot lists all files inclusive of the hidden files in current directory, parent directory and /boot directory  in long format
 file /tmp/iamafile Print the type of file
 ln -s  /bin/ls __ls__ create a symblic link named __ls__ to /bin/ls
+cp *.html!.. .. copies all html files not present in the parent directory from the current directory to the parent directory
