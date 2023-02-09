@@ -4,5 +4,7 @@ sudo chown betty hello changes ownership of file hello to user betty
 touch hello  creates an empty file named hello
 chmod u+x ./hello adds execute permission to hello file at cd
 chmod 754 ./hello add execute to user and group ,adds write to others
-chmod 751 ./hello adds execution to all
+chmod a+x ./hello adds execution to all
+chmod 007 ./hello gives permission to others only
+
 
