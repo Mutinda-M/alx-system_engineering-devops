@@ -11,3 +11,7 @@ chmod --reference=./olleh /.hello change mode of hello to be exact as that of ol
 chmod a+x . add execution permission to all subdirectories in working directory
 mkdir -m 751 ./my_dir creates directory my_dir in current working folder with 751 permissions
 sudo chgrp school ./hello changes group owner to school
+sudo chown vincent:staff * changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+sudo chown -h vincent:staff ./hello changes the owner and the group owner of _hello to vincent and staff respectively, file _hello is a symbolic link
+sudo chown --from=guillaume betty ./hello changes the owner of the file hello to betty only if it is owned by the user guillaume
+
